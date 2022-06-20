@@ -15,7 +15,7 @@ body {
   width: 1142px;
 }
 .main-wrapper {
-  background: url(/image/hero.png) center top 6px no-repeat, url(/image/bottom-pic.png) center bottom 308px no-repeat; 
+  background: url("image/hero.png") center top 6px no-repeat, url("image/bottom-pic.png") center bottom 308px no-repeat; 
   background-size: 116%;
 }
 
