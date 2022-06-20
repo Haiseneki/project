@@ -10,9 +10,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.wrapper {
+.container {
   margin: 0 auto;
   width: 1142px;
+}
+.main-wrapper {
+  background: url(/image/hero.png) center top 6px no-repeat, url(/image/bottom-pic.png) center bottom 308px no-repeat; 
+  background-size: 116%;
 }
 
 a {
