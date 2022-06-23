@@ -46,10 +46,15 @@ h4 {
 }
 
 header {
-  top: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 155px;
-  position: relative;
+  min-width: 100%;
+  padding-left: 0;
+  padding-bottom: 49px;
   margin-bottom: 77px;
+
 }
 
 * {
@@ -58,21 +63,13 @@ header {
 
 .logo {
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
-.menu {
-  position: absolute;
-  top: 19px;
-  left: 438px;
-}
-
-.menu__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 51px;
+.menu__list {
+  padding-top: 9px;
+  min-width: 264px;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .menu__item--active .menu__title {
@@ -93,14 +90,14 @@ header {
 }
 
 .contacts {
-  position: absolute;
-  top: 5.64px;
-  right: 0;
   font-style: normal;
   text-align: right;
+  padding: 8px 2px 0px 7px;
 }
 
 .contacts__telephone {
+  display: block;
+  height: 28px;
   font-size: 26px;
   text-decoration: none;
 }
@@ -113,14 +110,12 @@ header {
   font-size: 13px;
   color: #FF3D00;
   text-decoration: underline;
-  top: 31px;
-  right: 2px;
-  position: absolute;
 }
 
 .promo {
   text-align: center;
   margin-bottom: 247px;
+  padding: 0;
 }
 
 .promo__title {
@@ -160,14 +155,18 @@ header {
   margin-bottom: 180px;
 }
 
+.offer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .offer__section {
-  display: inline-block;
   vertical-align: top;
   min-height: 476px;
   width: 362px;
   background-color: #ffffff;
   border-radius: 5px;
-  margin-right: 23px;
 }
 
 .offer__section:last-child {
@@ -198,6 +197,10 @@ header {
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 25px;
+  width: 304px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 b {
@@ -205,13 +208,11 @@ b {
 }
 
 .offer__man {
-  display: inline-block;
   width: 102px;
   margin-right: 76px;
 }
 
 .offer__days {
-  display: inline-block;
   width: 123px;
 }
 
@@ -241,18 +242,18 @@ b {
   margin-bottom: 51px;
 }
 
+.news__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .news__item {
   position: relative;
-  display: inline-block;
   vertical-align: top;
   width: 557px;
   min-height: 394px;
-  margin-right: 23px;
   margin-bottom: 52px;
-}
-
-.news__item:last-child {
-  margin-right: 0;
 }
 
 .news__img {
@@ -292,13 +293,12 @@ b {
 }
 
 .paginator {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-bottom: 145.5px;
-}
-
-.paginator__description,
-.paginator__list {
-  display: inline-block;
 }
 
 .paginator__description {
@@ -306,9 +306,19 @@ b {
   margin-right: 25px;
 }
 
+.paginator__list {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .paginator__item {
-  display: inline-block;
   vertical-align: middle;
+  margin-right: 2px;
+}
+
+.paginator__item:last-child {
+  margin-right: 0;
 }
 
 .paginator__link {
@@ -330,8 +340,11 @@ b {
   background: #FF5500;
 }
 
+.about {
+  display: flex;
+}
+
 .about__img {
-  display: inline-block;
   vertical-align: top;
   width: 490px;
   height: 505px;
@@ -339,8 +352,7 @@ b {
 
 .about__text {
   margin-top: 97px;
-  margin-left: -141px;
-  display: inline-block;
+  margin-left: -136px;
   vertical-align: top;
   background: #ffffff;
   padding: 70px 202px 66px 81px;
@@ -380,19 +392,23 @@ b {
 .footer {
   border-top: 1px solid #2f3034;
   height: 150px;
-  position: relative;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  padding-bottom: 10px;
 }
 
-.socials {
-  position: absolute;
-  bottom: 61px;
-  right: 265px;
+.socials__list {
+min-width: 174px;
+display: flex;
+justify-content: space-between;
 }
 
 .socials__item {
-  display: inline-block;
   vertical-align: middle;
-  margin-right: 6px;
+  /* margin-right: 6px; */
 }
 
 .socials__item:last-child {
@@ -444,14 +460,15 @@ b {
 }
 
 .logo--footer {
-  top: 43px;
+  padding-right: 63px;
+  padding-bottom: 2px;
 }
 
 .menu--footer {
-  top: 58px;
-  left: 328px;
+  padding-right: 45px;
+  padding-bottom: 6px;
 }
 
 .contacts--footer {
-  top: 48px;
+  padding-bottom: 8px;
 }
