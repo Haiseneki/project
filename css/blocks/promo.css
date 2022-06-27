@@ -1,0 +1,26 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  min-height: 702px ;
+  min-width: 55%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.promo__title {
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.37em;
+}
+
+.promo__description {
+  font-size: 18px;
+  margin-top: 15.5px;
+  margin-bottom: 56.5px;
+}
+.promo__button  {
+  padding-bottom: 111px;
+}
