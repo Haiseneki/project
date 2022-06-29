@@ -1,5 +1,5 @@
 .partners__title{
-  margin-top: 25px;
+  padding-top: 87px;
   margin-bottom: 79px;
   color:#000000;
   font-size: 48px;
@@ -8,18 +8,30 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between ;
   justify-content: space-between;
-  margin-bottom: 27px;
+  padding-bottom: 43px;
 }
 .partners__link {
-  display: block;
+  display: flex;
   width: 230px;
-  height: 138px;
+  padding-bottom: 65px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   filter: grayscale(100%);
 }
+
+.partners__item:first-child {
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+.partners__item:nth-child(4){
+  justify-content: flex-end;
+}
+.partners__item:nth-child(5){
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+
 .partners__link:hover{
   filter: grayscale(0%);
 }

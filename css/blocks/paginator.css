@@ -48,7 +48,8 @@
 
 .paginator--service{
   padding-left: 39px;
-  padding-top: 65px;
+  padding-top: 17px;
+  margin-bottom: 85px;
   color: #000000;
 }
 .paginator--service .paginator__item:hover .paginator__link {

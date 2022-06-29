@@ -1,9 +1,11 @@
 .service__list {
-  min-height: 809px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 93px ;
+}
+.service__item {
+  margin-bottom: 49px;
 }
 .service__link {
   display: flex;
