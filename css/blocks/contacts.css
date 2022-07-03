@@ -11,14 +11,66 @@
   text-decoration: none;
 }
 
-.contacts__telephone:hover {
-  color: #DA0100;
-}
-
 .contacts__schedule {
   font-size: 13px;
+  position: relative;
+}
+
+.contacts__schedule:hover .contacts__dropdown-menu {
+  display: block;
+  right: 0;
+  opacity: 0.8;
+}
+
+.contacts__hover {
   color: #FF3D00;
   text-decoration: underline;
+}
+
+.contacts__dropdown-menu {
+  position: absolute;
+  background: #fff;
+  padding: 13px 18px;
+  text-align: left;
+  right: 0;
+  border-radius: 9px;
+  top: 25px;
+  right: -9999px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.contacts__dropdown-menu:before {
+  content: " ";
+  display: block;
+  height: 25px;
+  left: 0;
+  right: 0;
+  top: -25px;
+  position: absolute;
+}
+
+.contacts__dropdown-menu:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  border-bottom: solid 16px #fff;
+  border-left: solid 18px transparent;
+  border-right: solid 18px transparent;
+  right: 35px;
+  top: -10px;
+
+}
+
+.contacts__days {
+  color: #1E1F20;
+  font-weight: 800;
+  padding-bottom: 4px;
+}
+
+.contacts__lunch {
+  color: #1E1F20;
+  font-weight: 600;
 }
 
 .contacts__description {

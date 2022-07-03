@@ -1,0 +1,19 @@
+.discount {
+  min-height: 363px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.discount__title {
+  text-align: left;
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 0;
+  width: 48%;
+  line-height: 1.36em;
+}
+
+.discount__title--orange {
+  color: #FF5400;
+}

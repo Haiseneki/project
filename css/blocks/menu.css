@@ -8,7 +8,7 @@
   margin-right: 55px;
 }
 .menu__item--active .menu__title {
-  color: #FF3D00;
+  color: #DA0100;
 }
 
 .menu__title {
@@ -21,7 +21,8 @@
 }
 
 .menu__title:hover {
-  color: #DA0100;
+  color: #FF3D00;
+  transition: 0.3s;
 }
 .menu--footer {
   padding-right: 45px;

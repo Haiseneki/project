@@ -8,26 +8,44 @@
 }
 
 .button__link--color--orange {
-  background: #FF3D00;
+  background: #FF5500;
+  transition: background 0.3s;
+  border: none;
+  color: #fff;
 }
 
 .button__link--color--orange:hover {
-  background: #DA0100;
+  background: #FF3D00;
 }
 
 .button__link--color--none {
   color: #FF5500;
   border: 2px solid #FF5500;
-  border-radius: 35px;
+  padding: 18px 51px;
+  transition: background 0.3s;
 }
 
 .button__link--color--none:hover {
   color: #ffffff;
   background: #FF5500;
-  border: none;
-  padding: 20px 53px 20px 53px;
 }
 
 .button__link--size--smaller {
   padding: 18px 40px;
+}
+
+.button__link--color--grey {
+  color:#fff;
+  background: #8E8E8E;
+  transition: background 0.3s;
+  border: none;
+}
+
+.button__link--color--grey:hover {
+  color:#fff;
+  background: #2B2B2B
+}
+
+.button__link--size--small {
+  padding: 18px 43px;
 }

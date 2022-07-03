@@ -1,0 +1,59 @@
+@import url("./css/layout/fonts.css");
+@import url("./css/layout/normalize.css");
+@import url("./css/layout/base.css");
+@import url("./css/blocks/logo.css");
+@import url("./css/blocks/button.css");
+
+.welcome {
+  background: url("image/bg.png") center no-repeat;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome__rec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 220px 295px 203px;
+  background: url("image/rec.png") center no-repeat;
+}
+
+.welcome__animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: rotation 1s;
+  animation-fill-mode: forwards;
+}
+
+.welcome__logo{
+  margin-bottom: 59px;
+}
+
+@keyframes rotation {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(30deg);
+  }
+
+  33%{
+    transform: rotate(-10deg);
+  }
+
+  66% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}

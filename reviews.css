@@ -1,0 +1,43 @@
+@import url("./css/layout/fonts.css");
+@import url("./css/layout/normalize.css");
+@import url("./css/layout/base.css");
+@import url("./css/blocks/header.css");
+@import url("./css/blocks/logo.css");
+@import url("./css/blocks/menu.css");
+@import url("./css/blocks/contacts.css");
+@import url("./css/blocks/top.css");
+@import url("./css/blocks/breadcrumbs.css");
+@import url("./css/blocks/paginator.css");
+@import url("./css/blocks/review.css");
+@import url("./css/blocks/tag.css");
+@import url("./css/blocks/discount.css");
+@import url("./css/blocks/form.css");
+@import url("./css/blocks/footer.css");
+@import url("./css/blocks/socials.css");
+@import url("./css/blocks/button.css");
+
+.container {
+  margin: 0 auto;
+  width: 1142px;
+}
+
+.main-content {
+  background: #E5E5E5;
+}
+
+.section--footer {
+  background: #17191C;
+}
+
+.section--discount {
+  background: url("image/party.png") top right 9% no-repeat, #373737;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section--form {
+  background: #F4F5F5;
+}
+
+
+
